@@ -1,0 +1,19 @@
+@import "settings/colors";
+@import "settings/fonts";
+
+// mixins
+@import "_mixins.scss";
+
+// component
+@import "component/header";
+@import "component/footer";
+
+// WP Core
+@import "component/wp-core";
+
+// pages
+@import "pages/homepage.scss";
+@import "pages/single.scss";
+
+// Utilities
+@import "_utilities.scss";
